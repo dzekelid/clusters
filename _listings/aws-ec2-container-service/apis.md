@@ -33,7 +33,7 @@ apis:
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-ec2-container-service/action-deletecluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-ec2-container-service/action-describeclusters-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
