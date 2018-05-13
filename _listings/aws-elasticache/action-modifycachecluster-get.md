@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Modify Cache Cluster
   version: 1.0.0
+  description: Modifies the settings for a cache cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyCacheCluster&k=1:
+  /?Action=ModifyCacheCluster:
     get:
       summary: ' Modify Cache Cluster '
       description: Modifies the settings for a cache cluster
