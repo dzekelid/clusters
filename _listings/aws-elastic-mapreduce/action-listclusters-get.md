@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API List Clusters
   version: 1.0.0
+  description: Provides the status of all clusters visible to this AWS account.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListClusters&k=1:
+  /?Action=ListClusters:
     get:
       summary: ' List Clusters '
       description: Provides the status of all clusters visible to this AWS account
