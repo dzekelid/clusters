@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Reboot Cluster
   version: 1.0.0
+  description: Reboots a cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RebootCluster&k=1:
+  /?Action=RebootCluster:
     get:
       summary: ' Reboot Cluster '
       description: Reboots a cluster
