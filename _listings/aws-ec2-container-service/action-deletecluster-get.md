@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Delete Cluster
   version: 1.0.0
+  description: Deletes the specified cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCluster&k=1:
+  /?Action=DeleteCluster:
     get:
       summary: ' Delete Cluster '
       description: Deletes the specified cluster
