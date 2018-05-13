@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Create D B Cluster
   version: 1.0.0
+  description: Creates a new Amazon Aurora DB cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBCluster&k=1:
+  /?Action=CreateDBCluster:
     get:
       summary: Create D B Cluster
       description: Creates a new Amazon Aurora DB cluster
