@@ -29,16 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-rds/action-restoredbclustertopointintime-get.md
-- name: Amazon RDS API Restore D B Cluster From S3
-  description: Creates an Amazon Aurora DB cluster from data stored in an Amazon S3
-    bucket.
+- name: Amazon RDS API Restore D B Cluster To Point In Time
+  description: Restores a DB cluster to an arbitrary point in time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-restoredbclusterfroms3-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-restoredbclustertopointintime-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
