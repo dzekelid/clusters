@@ -44,7 +44,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-snowball/action-updatecluster-get.md
+- name: AWS Snowball API Cancel Cluster
+  description: Cancels a cluster job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: http:://{host}//
+  tags: Clusters
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-snowball/action-cancelcluster-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
+- type: x-faq
+  url: https://aws.amazon.com/snowball/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/snowball/getting-started/
+- type: x-tools
+  url: https://aws.amazon.com/snowball/tools/
+- type: x-website
+  url: https://aws.amazon.com/snowball/
 - type: x-documentation
   url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
 - type: x-faq
