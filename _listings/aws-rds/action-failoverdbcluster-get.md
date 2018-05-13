@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Failover D B Cluster
   version: 1.0.0
+  description: Forces a failover for a DB cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=FailoverDBCluster&k=1:
+  /?Action=FailoverDBCluster:
     get:
       summary: Failover D B Cluster
       description: Forces a failover for a DB cluster
