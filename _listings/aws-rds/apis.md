@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-rds/action-restoredbclustertopointintime-get.md
-- name: Amazon RDS API Delete D B Cluster
-  description: The DeleteDBCluster action deletes a previously provisioned DB cluster.
+- name: Amazon RDS API Describe D B Clusters
+  description: Returns information about provisioned Aurora DB clusters.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-deletedbcluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-describedbclusters-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
