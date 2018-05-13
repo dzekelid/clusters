@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Update Cluster
   version: 1.0.0
+  description: |-
+    While a cluster's ClusterState value is in the AwaitingQuorum
+          state, you can update some of the information associated with a cluster.
 schemes:
 - http
 produces:
@@ -10,7 +13,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateCluster&k=1:
+  /?Action=UpdateCluster:
     get:
       summary: ' Update Cluster '
       description: |-
