@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Delete D B Cluster
   version: 1.0.0
+  description: The DeleteDBCluster action deletes a previously provisioned DB cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBCluster&k=1:
+  /?Action=DeleteDBCluster:
     get:
       summary: Delete D B Cluster
       description: The DeleteDBCluster action deletes a previously provisioned DB
