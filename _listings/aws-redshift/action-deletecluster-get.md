@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Delete Cluster
   version: 1.0.0
+  description: Deletes a previously provisioned cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCluster&k=1:
+  /?Action=DeleteCluster:
     get:
       summary: ' Delete Cluster '
       description: Deletes a previously provisioned cluster
