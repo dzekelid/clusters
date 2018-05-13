@@ -27,15 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/azure-service-fabric/subscriptions-subscriptionid-providers-microsoft-servicefabric-clusters-get.md
-- name: Azure Service Fabric API Clusters Create
-  description: Create cluster resource
+- name: Azure Service Fabric API Clusters Delete
+  description: Delete cluster resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-fabric-02.png
   humanURL: https://azure.microsoft.com/en-us/services/service-fabric/
   baseURL: http:://management.azure.com//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-service-fabric/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicefabric-clusters-clustername-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-service-fabric/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicefabric-clusters-clustername-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-service-fabric/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicefabric-clusters-clustername-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-fabric/
