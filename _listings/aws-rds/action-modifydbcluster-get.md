@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Modify D B Cluster
   version: 1.0.0
+  description: Modify a setting for an Amazon Aurora DB cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBCluster&k=1:
+  /?Action=ModifyDBCluster:
     get:
       summary: Modify D B Cluster
       description: Modify a setting for an Amazon Aurora DB cluster
