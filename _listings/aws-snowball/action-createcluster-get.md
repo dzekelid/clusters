@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Create Cluster
   version: 1.0.0
+  description: Creates an empty cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCluster&k=1:
+  /?Action=CreateCluster:
     get:
       summary: ' Create Cluster '
       description: Creates an empty cluster
