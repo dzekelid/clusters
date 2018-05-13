@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Delete Cache Cluster
   version: 1.0.0
+  description: Deletes a previously provisioned cache cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCacheCluster&k=1:
+  /?Action=DeleteCacheCluster:
     get:
       summary: ' Delete Cache Cluster '
       description: Deletes a previously provisioned cache cluster
