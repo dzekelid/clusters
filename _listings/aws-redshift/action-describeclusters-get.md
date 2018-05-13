@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Clusters
   version: 1.0.0
+  description: |-
+    Returns properties of provisioned clusters including general cluster properties,
+                cluster database properties, maintenance and backup properties, and security and access
+                properties.
 schemes:
 - http
 produces:
@@ -10,7 +14,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeClusters&k=1:
+  /?Action=DescribeClusters:
     get:
       summary: ' Describe Clusters '
       description: |-
