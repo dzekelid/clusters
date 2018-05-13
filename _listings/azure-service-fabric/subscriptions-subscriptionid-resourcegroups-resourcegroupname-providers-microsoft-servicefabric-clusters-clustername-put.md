@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceFabricManagementClient
+  title: Azure Service Fabric API Clusters Create
   version: 1.0.0
+  description: Create cluster resource
 host: management.azure.com
 basePath: /
 schemes:
