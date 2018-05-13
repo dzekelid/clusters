@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Register Ecs Cluster
   version: 1.0.0
+  description: Registers a specified Amazon ECS cluster with a stack.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterEcsCluster&k=1:
+  /?Action=RegisterEcsCluster:
     get:
       summary: ' Register Ecs Cluster '
       description: Registers a specified Amazon ECS cluster with a stack
