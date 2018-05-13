@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Describe Cache Clusters
   version: 1.0.0
+  description: |-
+    Returns information about all provisioned
+                cache clusters if no cache cluster identifier is specified, or about a specific cache
+                cluster if a cache cluster identifier is supplied.
 schemes:
 - http
 produces:
@@ -10,7 +14,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCacheClusters&k=1:
+  /?Action=DescribeCacheClusters:
     get:
       summary: ' Describe Cache Clusters '
       description: |-
