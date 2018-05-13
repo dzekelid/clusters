@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Create Cache Cluster
   version: 1.0.0
+  description: Creates a cache cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCacheCluster&k=1:
+  /?Action=CreateCacheCluster:
     get:
       summary: ' Create Cache Cluster '
       description: Creates a cache cluster
