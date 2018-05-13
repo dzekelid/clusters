@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: HDInsightManagementClient
-  description: The HDInsight Management Client.
+  title: Azure HDInsight API Clusters List
+  description: Lists HDInsight clusters under the subscription.
   version: 1.0.0
 host: management.azure.com
 basePath: /
