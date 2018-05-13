@@ -27,7 +27,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-opsworks/action-registerecscluster-get.md
+- name: AWS OpsWorks API Describe Ecs Clusters
+  description: Describes Amazon ECS clusters that are registered with a stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: http:://{host}//
+  tags: Clusters
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-opsworks/action-describeecsclusters-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
+- type: x-website
+  url: https://aws.amazon.com/opsworks/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation
