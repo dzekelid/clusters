@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Create Cluster
   version: 1.0.0
+  description: Creates a new Amazon ECS cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCluster&k=1:
+  /?Action=CreateCluster:
     get:
       summary: ' Create Cluster '
       description: Creates a new Amazon ECS cluster
