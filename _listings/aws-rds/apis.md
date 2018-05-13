@@ -29,16 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-rds/action-restoredbclustertopointintime-get.md
-- name: Amazon RDS API Remove Role From D B Cluster
-  description: Disassociates an Identity and Access Management (IAM) role from an
-    Aurora DB cluster.
+- name: Amazon RDS API Restore D B Cluster From S3
+  description: Creates an Amazon Aurora DB cluster from data stored in an Amazon S3
+    bucket.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-removerolefromdbcluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-restoredbclusterfroms3-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
