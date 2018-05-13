@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Cancel Cluster
   version: 1.0.0
+  description: Cancels a cluster job.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelCluster&k=1:
+  /?Action=CancelCluster:
     get:
       summary: ' Cancel Cluster '
       description: Cancels a cluster job
