@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API List Clusters
   version: 1.0.0
+  description: Returns an array of ClusterListEntry objects of the specified length.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListClusters&k=1:
+  /?Action=ListClusters:
     get:
       summary: ' List Clusters '
       description: Returns an array of ClusterListEntry objects of the specified length
