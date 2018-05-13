@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-rds/action-restoredbclustertopointintime-get.md
-- name: Amazon RDS API Failover D B Cluster
-  description: Forces a failover for a DB cluster.
+- name: Amazon RDS API Modify D B Cluster
+  description: Modify a setting for an Amazon Aurora DB cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-failoverdbcluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/action-modifydbcluster-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
