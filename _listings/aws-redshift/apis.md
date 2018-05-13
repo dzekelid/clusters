@@ -31,18 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-redshift/action-rebootcluster-get.md
-- name: Amazon Redshift API Describe Clusters
-  description: |-
-    Returns properties of provisioned clusters including general cluster properties,
-                cluster database properties, maintenance and backup properties, and security and access
-                properties.
+- name: Amazon Redshift API Describe Cluster Versions
+  description: Returns descriptions of the available Amazon Redshift cluster versions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-redshift/action-describeclusters-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-redshift/action-describeclusterversions-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
