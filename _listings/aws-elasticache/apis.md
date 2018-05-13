@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-elasticache/action-rebootcachecluster-get.md
-- name: Amazon ElastiCache API Modify Cache Cluster
-  description: Modifies the settings for a cache cluster.
+- name: Amazon ElastiCache API Reboot Cache Cluster
+  description: |-
+    Reboots some, or all, of the cache nodes
+                within a provisioned cache cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-elasticache/action-modifycachecluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-elasticache/action-rebootcachecluster-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
