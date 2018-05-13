@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Describe Cluster
   version: 1.0.0
+  description: |-
+    Returns information about a specific cluster including shipping information, cluster
+          status, and other important metadata.
 schemes:
 - http
 produces:
@@ -10,7 +13,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCluster&k=1:
+  /?Action=DescribeCluster:
     get:
       summary: ' Describe Cluster '
       description: |-
