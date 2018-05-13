@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: HDInsightManagementClient
-  description: The HDInsight Management Client.
+  title: Azure HDInsight API Clusters Change Rdp Settings
+  description: Begins changing the RDP settings on the specified cluster.
   version: 1.0.0
 host: management.azure.com
 basePath: /
