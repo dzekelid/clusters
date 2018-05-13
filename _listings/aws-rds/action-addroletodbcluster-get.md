@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Add Role To D B Cluster
   version: 1.0.0
+  description: Associates an Identity and Access Management (IAM) role from an Aurora
+    DB cluster.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddRoleToDBCluster&k=1:
+  /?Action=AddRoleToDBCluster:
     get:
       summary: Add Role To D B Cluster
       description: Associates an Identity and Access Management (IAM) role from an
