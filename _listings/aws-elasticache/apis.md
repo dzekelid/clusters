@@ -34,7 +34,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-elasticache/action-rebootcachecluster-get.md
+- name: Amazon ElastiCache API Create Cache Cluster
+  description: Creates a cache cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
+  humanURL: https://aws.amazon.com/elasticache/
+  baseURL: http:://{host}//
+  tags: Clusters
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-elasticache/action-createcachecluster-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/elasticache/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/elasticache/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/elasticache/pricing/
+- type: x-resources
+  url: https://aws.amazon.com/elasticache/developer-resources/
+- type: x-testimonials
+  url: https://aws.amazon.com/elasticache/testimonials/
+- type: x-website
+  url: https://aws.amazon.com/elasticache/
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
 - type: x-faq
