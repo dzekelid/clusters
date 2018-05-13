@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Modify Cluster
   version: 1.0.0
+  description: Modifies the settings for a cluster.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyCluster&k=1:
+  /?Action=ModifyCluster:
     get:
       summary: ' Modify Cluster '
       description: Modifies the settings for a cluster
