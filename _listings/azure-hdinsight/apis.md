@@ -26,17 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-executescriptactions-post.md
-- name: Azure HDInsight API Clusters List
-  description: Lists HDInsight clusters under the subscription.
+- name: Azure HDInsight API Clusters Change Rdp Settings
+  description: Begins changing the RDP settings on the specified cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
   humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
   baseURL: http:://management.azure.com//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-hdinsight/subscriptions-subscriptionid-providers-microsoft-hdinsight-clusters-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-hdinsight/subscriptions-subscriptionid-providers-microsoft-hdinsight-clusters-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-hdinsight/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-hdinsight-clusters-clustername-changerdpsetting-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/hdinsight/
