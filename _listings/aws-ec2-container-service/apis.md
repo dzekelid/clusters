@@ -34,7 +34,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-ec2-container-service/action-listclusters-get.md
+- name: Amazon EC2 Container Service API Create Cluster
+  description: Creates a new Amazon ECS cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: http:://{host}//
+  tags: Clusters
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-ec2-container-service/action-createcluster-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/ecs/faqs/
+- type: x-getting-started
+  url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html
+- type: x-pricing
+  url: https://aws.amazon.com/ecs/pricing/
+- type: x-website
+  url: https://aws.amazon.com/ecs/
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
 - type: x-faq
