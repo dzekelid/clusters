@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-ec2-container-service/action-listclusters-get.md
-- name: Amazon EC2 Container Service API Create Cluster
-  description: Creates a new Amazon ECS cluster.
+- name: Amazon EC2 Container Service API Delete Cluster
+  description: Deletes the specified cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
   humanURL: https://aws.amazon.com/ecs/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-ec2-container-service/action-createcluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-ec2-container-service/action-deletecluster-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
