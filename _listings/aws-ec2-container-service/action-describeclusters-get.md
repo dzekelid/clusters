@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Describe Clusters
   version: 1.0.0
+  description: Describes one or more of your clusters.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeClusters&k=1:
+  /?Action=DescribeClusters:
     get:
       summary: ' Describe Clusters '
       description: Describes one or more of your clusters
