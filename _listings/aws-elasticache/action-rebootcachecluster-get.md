@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Reboot Cache Cluster
   version: 1.0.0
+  description: |-
+    Reboots some, or all, of the cache nodes
+                within a provisioned cache cluster.
 schemes:
 - http
 produces:
@@ -10,7 +13,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RebootCacheCluster&k=1:
+  /?Action=RebootCacheCluster:
     get:
       summary: ' Reboot Cache Cluster '
       description: |-
