@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceFabricManagementClient
+  title: Azure Service Fabric API Clusters Update
   version: 1.0.0
+  description: Update cluster configuration
 host: management.azure.com
 basePath: /
 schemes:
