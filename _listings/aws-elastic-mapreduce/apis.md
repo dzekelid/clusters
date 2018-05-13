@@ -33,16 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/aws-elastic-mapreduce/action-listclusters-get.md
-- name: AWS Elastic MapReduce API Describe Cluster
-  description: Provides cluster-level details including status, hardware and software
-    configuration, VPC settings, and so on.
+- name: AWS Elastic MapReduce API List Clusters
+  description: Provides the status of all clusters visible to this AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
   humanURL: https://aws.amazon.com/emr/
   baseURL: http:://{host}//
   tags: Clusters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-elastic-mapreduce/action-describecluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-elastic-mapreduce/action-listclusters-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
