@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Remove Role From D B Cluster
   version: 1.0.0
+  description: Disassociates an Identity and Access Management (IAM) role from an
+    Aurora DB cluster.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveRoleFromDBCluster&k=1:
+  /?Action=RemoveRoleFromDBCluster:
     get:
       summary: Remove Role From D B Cluster
       description: Disassociates an Identity and Access Management (IAM) role from
