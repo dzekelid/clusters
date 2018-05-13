@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Ecs Clusters
   version: 1.0.0
+  description: Describes Amazon ECS clusters that are registered with a stack.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEcsClusters&k=1:
+  /?Action=DescribeEcsClusters:
     get:
       summary: ' Describe Ecs Clusters '
       description: Describes Amazon ECS clusters that are registered with a stack
