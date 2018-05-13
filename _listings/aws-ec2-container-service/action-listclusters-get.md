@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API List Clusters
   version: 1.0.0
+  description: Returns a list of existing clusters.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListClusters&k=1:
+  /?Action=ListClusters:
     get:
       summary: ' List Clusters '
       description: Returns a list of existing clusters
