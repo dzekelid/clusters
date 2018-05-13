@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe D B Clusters
   version: 1.0.0
+  description: Returns information about provisioned Aurora DB clusters.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBClusters&k=1:
+  /?Action=DescribeDBClusters:
     get:
       summary: Describe D B Clusters
       description: Returns information about provisioned Aurora DB clusters
