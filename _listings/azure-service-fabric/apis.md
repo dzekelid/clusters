@@ -27,7 +27,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/clusters/master/_listings/azure-service-fabric/subscriptions-subscriptionid-providers-microsoft-servicefabric-clusters-get.md
+- name: Azure Service Fabric API Clusters Update
+  description: Update cluster configuration
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-fabric-02.png
+  humanURL: https://azure.microsoft.com/en-us/services/service-fabric/
+  baseURL: http:://management.azure.com//
+  tags: Clusters
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-service-fabric/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicefabric-clusters-clustername-patch.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/service-fabric/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/service-fabric/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/service-fabric/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/service-fabric/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-fabric/
 - type: x-pricing
