@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API Describe Cluster
   version: 1.0.0
+  description: Provides cluster-level details including status, hardware and software
+    configuration, VPC settings, and so on.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCluster&k=1:
+  /?Action=DescribeCluster:
     get:
       summary: ' Describe Cluster '
       description: Provides cluster-level details including status, hardware and software
