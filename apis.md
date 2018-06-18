@@ -4,7 +4,7 @@ description: This is a repository of clusters APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/clusters.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-18"
 url: http://clusters.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -28,6 +28,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-hdinsight/apis.yaml
 - name: Azure Service Fabric
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-service-fabric/apis.yaml
+- name: Flickr
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/flickr/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

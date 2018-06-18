@@ -42,25 +42,7 @@ paths:
         200:
           description: OK
       tags:
-      - ECS Clusters
-  /?Action=RegisterEcsCluster:
-    get:
-      summary: Register Ecs Cluster
-      description: Registers a specified Amazon ECS cluster with a stack.
-      operationId: registerEcsCluster
-      x-api-path-slug: actionregisterecscluster-get
-      parameters:
-      - in: query
-        name: EcsClusterArn
-        description: The clusters ARN
-        type: string
-      - in: query
-        name: StackId
-        description: The stack ID
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - ECS Clusters
+      - Describe
+      - Ecs
+      - Clusters
 ---

@@ -22,10 +22,10 @@ description: Snowball is a petabyte-scale data transport solution that uses secu
   of the Snowball appliance.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Clusters
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-snowball/apis.md
 specificationVersion: "0.14"
 apis:

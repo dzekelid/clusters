@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Service Fabric
-x-complete: 1
+x-complete: 0
 info:
-  title: ServiceFabricManagementClient
+  title: Azure Service Fabric API Clusters Create
   version: 1.0.0
+  description: Create cluster resource
 host: management.azure.com
 basePath: /
 schemes:
@@ -65,45 +66,17 @@ paths:
           description: OK
       tags:
       - Clusters
-    delete:
-      summary: Clusters Delete
-      description: Delete cluster resource
-      operationId: Clusters_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicefabricclustersclustername-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters
-  /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.ServiceFabric/clusters:
-    get:
-      summary: Clusters List By Resource Group
-      description: List cluster resource by resource group
-      operationId: Clusters_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicefabricclusters-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters Resource Group
-  /subscriptions/{subscriptionId}/providers/Microsoft.ServiceFabric/clusters:
-    get:
-      summary: Clusters List
-      description: List cluster resource
-      operationId: Clusters_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-servicefabricclusters-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

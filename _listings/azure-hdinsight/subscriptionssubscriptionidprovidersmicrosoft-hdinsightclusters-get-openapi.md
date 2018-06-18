@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure HDInsight
-x-complete: 1
+x-complete: 0
 info:
-  title: HDInsightManagementClient
-  description: the-hdinsight-management-client-
+  title: Azure HDInsight API Clusters List
+  description: Lists HDInsight clusters under the subscription.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -161,54 +161,17 @@ paths:
           description: OK
       tags:
       - Clusters
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/changerdpsetting
-  : post:
-      summary: Clusters Change Rdp Settings
-      description: Begins changing the RDP settings on the specified cluster.
-      operationId: Clusters_ChangeRdpSettings
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternamechangerdpsetting-post
-      parameters:
-      - in: path
-        name: clusterName
-        description: The name of the cluster
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The OS profile for RDP
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters Change Rdptings
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions
-  : post:
-      summary: Clusters Execute Script Actions
-      description: Begins executing script actions on the specified HDInsight cluster.
-      operationId: Clusters_ExecuteScriptActions
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameexecutescriptactions-post
-      parameters:
-      - in: path
-        name: clusterName
-        description: The name of the cluster
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The parameters for executing script actions
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters Execute Script Actions
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

@@ -8,10 +8,10 @@ description: AWS OpsWorks is a configuration management service that uses Chef, 
   OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Clusters
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,20 +21,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeEcsClusters
-  tags: ECS Clusters
+  tags: Describe,Ecs,Clusters
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-opsworks/actiondescribeecsclusters-get-openapi.md
-- name: AWS OpsWorks API Register Ecs Cluster
-  x-api-slug: aws-opsworks-api
-  description: Registers a specified Amazon ECS cluster with a stack.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
-  humanURL: https://aws.amazon.com/opsworks/
-  baseURL: ://///?Action=RegisterEcsCluster
-  tags: ECS Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-opsworks/actionregisterecscluster-get-openapi.md
 - name: AWS OpsWorks API
   x-api-slug: aws-opsworks-api
   description: AWS OpsWorks is a configuration management service that uses Chef,
