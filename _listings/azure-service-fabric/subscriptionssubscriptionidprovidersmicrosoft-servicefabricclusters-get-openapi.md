@@ -79,20 +79,6 @@ paths:
           description: OK
       tags:
       - Clusters
-  /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.ServiceFabric/clusters:
-    get:
-      summary: Clusters List By Resource Group
-      description: List cluster resource by resource group
-      operationId: Clusters_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicefabricclusters-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters Resource Group
   /subscriptions/{subscriptionId}/providers/Microsoft.ServiceFabric/clusters:
     get:
       summary: Clusters List

@@ -11,120 +11,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Clusters
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Amazon RDS API Add Role To D B Cluster
-  x-api-slug: amazon-rds-api
-  description: Associates an Identity and Access Management (IAM) role from an Aurora
-    DB cluster.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=AddRoleToDBCluster
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionaddroletodbcluster-get-openapi.md
-- name: Amazon RDS API Create D B Cluster
-  x-api-slug: amazon-rds-api
-  description: Creates a new Amazon Aurora DB cluster.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=CreateDBCluster
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actioncreatedbcluster-get-openapi.md
-- name: Amazon RDS API Delete D B Cluster
-  x-api-slug: amazon-rds-api
-  description: The DeleteDBCluster action deletes a previously provisioned DB cluster.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=DeleteDBCluster
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actiondeletedbcluster-get-openapi.md
-- name: Amazon RDS API Describe D B Clusters
-  x-api-slug: amazon-rds-api
-  description: Returns information about provisioned Aurora DB clusters.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=DescribeDBClusters
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actiondescribedbclusters-get-openapi.md
-- name: Amazon RDS API Failover D B Cluster
-  x-api-slug: amazon-rds-api
-  description: Forces a failover for a DB cluster.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=FailoverDBCluster
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionfailoverdbcluster-get-openapi.md
-- name: Amazon RDS API Modify D B Cluster
-  x-api-slug: amazon-rds-api
-  description: Modify a setting for an Amazon Aurora DB cluster.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=ModifyDBCluster
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionmodifydbcluster-get-openapi.md
-- name: Amazon RDS API Remove Role From D B Cluster
-  x-api-slug: amazon-rds-api
-  description: Disassociates an Identity and Access Management (IAM) role from an
-    Aurora DB cluster.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=RemoveRoleFromDBCluster
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionremoverolefromdbcluster-get-openapi.md
-- name: Amazon RDS API Restore D B Cluster From S3
-  x-api-slug: amazon-rds-api
-  description: Creates an Amazon Aurora DB cluster from data stored in an Amazon S3
-    bucket.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=RestoreDBClusterFromS3
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionrestoredbclusterfroms3-get-openapi.md
-- name: Amazon RDS API Restore D B Cluster To Point In Time
-  x-api-slug: amazon-rds-api
-  description: Restores a DB cluster to an arbitrary point in time.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=RestoreDBClusterToPointInTime
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionrestoredbclustertopointintime-get-openapi.md
-- name: Amazon RDS API
-  x-api-slug: amazon-rds-api
-  description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-    up, operate, and scale arelational databasein the cloud. It provides cost-efficient
-    and resizable capacity while managing time-consuming database administration tasks,
-    freeing you up to focus on your applications and business. Amazon RDS provides
-    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
-    andMicrosoft SQL Server.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: :///
-  tags: Clusters
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.polly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.rds.stack.network
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
 - type: x-blog

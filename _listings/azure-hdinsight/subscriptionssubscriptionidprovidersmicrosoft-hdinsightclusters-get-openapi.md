@@ -102,51 +102,6 @@ paths:
           description: OK
       tags:
       - Clusters
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters:
-    get:
-      summary: Clusters List By Resource Group
-      description: List the HDInsight clusters in a resource group.
-      operationId: Clusters_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclusters-get
-      parameters:
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters Resource Group
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/resize
-  : post:
-      summary: Clusters Resize
-      description: Begins a resize operation on the specified HDInsight cluster.
-      operationId: Clusters_Resize
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternamerolesrolenameresize-post
-      parameters:
-      - in: path
-        name: clusterName
-        description: The name of the cluster
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The parameters for the resize operation
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      - in: path
-        name: roleName
-        description: The constant value for the roleName
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clusters Resize
   /subscriptions/{subscriptionId}/providers/Microsoft.HDInsight/clusters:
     get:
       summary: Clusters List
