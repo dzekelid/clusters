@@ -9,11 +9,27 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-en
 x-kinRank: "8"
 x-alexaRank: "5166"
 tags: Clusters
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/apis.md
 specificationVersion: "0.14"
 apis:
+- name: U.S. EPA Enforcement and Compliance History Online (ECHO) - All Data - Combined
+    ECHO Info Clusters Service
+  x-api-slug: echo-rest-services-get-info-clusters-get
+  description: Based on the QID obtained from a clustered get_facility_info query,
+    download cluster facility information as either a CSV or GEOJSON file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg
+  humanURL: http://www.epa.gov
+  baseURL: https://ofmpub.epa.gov//echo
+  tags: Environmental database, Environment, Science, Dead, Environment, Federal Government,
+    Stack Network, Enterprise, API Provider, Profiles, General Data, Historical Data
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/echo-rest-services-get-info-clusters-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/echo-rest-services-get-info-clusters-get-openapi.md
 - name: U.S. EPA Enforcement and Compliance History Online (ECHO) - Clean Air Act
     - Clean Air Act Facility Enhanced Search
   x-api-slug: air-rest-services-get-facility-info-get
@@ -46,6 +62,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/air-rest-services-get-info-clusters-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/air-rest-services-get-info-clusters-get-openapi.md
+- name: U.S. EPA Enforcement and Compliance History Online (ECHO) - Clean Water Act
+    (CWA) Rest Services - Clean Water Act (CWA) Info Clusters Service
+  x-api-slug: cwa-rest-services-get-info-clusters-get
+  description: Based on the QID obtained from a clustered get_facility_info query,
+    download cluster facility information as either a CSV or GEOJSON file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg
+  humanURL: http://www.epa.gov
+  baseURL: https://ofmpub.epa.gov//echo
+  tags: Environmental database, Environment, Science, Dead, Environment, Federal Government,
+    Stack Network, Enterprise, API Provider, Profiles, General Data, Historical Data
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/cwa-rest-services-get-info-clusters-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/cwa-rest-services-get-info-clusters-get-openapi.md
+- name: U.S. EPA Enforcement and Compliance History Online (ECHO) - Resource Conservation
+    and Recovery Act  - Resource Conservation and Recovery Act (RCRA) Info Clusters
+    Service
+  x-api-slug: rcra-rest-services-get-info-clusters-get
+  description: Based on the QID obtained from a clustered get_facility_info query,
+    download cluster facility information as either a CSV or GEOJSON file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg
+  humanURL: http://www.epa.gov
+  baseURL: https://ofmpub.epa.gov//echo
+  tags: Environmental database, Environment, Science, Dead, Environment, Federal Government,
+    Stack Network, Enterprise, API Provider, Profiles, General Data, Historical Data
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/rcra-rest-services-get-info-clusters-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/epa-envirofacts/rcra-rest-services-get-info-clusters-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://envestnet.api.gallery.streamdata.io

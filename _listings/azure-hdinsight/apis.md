@@ -8,11 +8,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Clusters
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-hdinsight/apis.md
 specificationVersion: "0.14"
 apis:
+- name: HDInsightManagementClient - Clusters Create
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclustername-put
+  description: Begins creating a new HDInsight cluster with the specified parameters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
+  humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
+  baseURL: ://management.azure.com//
+  tags: Data, Analysis, Microsoft, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclustername-put-openapi.md
+- name: HDInsightManagementClient - Clusters Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclustername-patch
+  description: Patch HDInsight cluster with the specified parameters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png
+  humanURL: https://azure.microsoft.com/en-us/services/hdinsight/
+  baseURL: ://management.azure.com//
+  tags: Data, Analysis, Microsoft, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/azure-hdinsight/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclustername-patch-openapi.md
 - name: HDInsightManagementClient - Clusters Delete
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclustername-delete
   description: Begins deleting the specified HDInsight cluster.

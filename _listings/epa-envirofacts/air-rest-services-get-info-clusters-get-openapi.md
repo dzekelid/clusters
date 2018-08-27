@@ -19,6 +19,29 @@ produces:
 consumes:
 - application/json
 paths:
+  /echo_rest_services.get_info_clusters:
+    get:
+      summary: Combined ECHO Info Clusters Service
+      description: Based on the QID obtained from a clustered get_facility_info query,
+        download cluster facility information as either a CSV or GEOJSON file.
+      operationId: based-on-the-qid-obtained-from-a-clustered-get-facility-info-query-download-cluster-facility-informa
+      x-api-path-slug: echo-rest-services-get-info-clusters-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Combined
+      - ECHO
+      - Info
+      - Clusters
+      - Service
   /air_rest_services.get_facility_info:
     get:
       summary: Clean Air Act Facility Enhanced Search

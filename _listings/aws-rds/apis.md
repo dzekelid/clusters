@@ -11,11 +11,113 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Clusters
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS RDS API - Add Role To D B Cluster
+  x-api-slug: actionaddroletodbcluster-get
+  description: Associates an Identity and Access Management (IAM) role from an Aurora
+    DB cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionaddroletodbcluster-get-openapi.md
+- name: AWS RDS API - Create D B Cluster
+  x-api-slug: actioncreatedbcluster-get
+  description: Creates a new Amazon Aurora DB cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actioncreatedbcluster-get-openapi.md
+- name: AWS RDS API - Delete D B Cluster
+  x-api-slug: actiondeletedbcluster-get
+  description: The DeleteDBCluster action deletes a previously provisioned DB cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actiondeletedbcluster-get-openapi.md
+- name: AWS RDS API - Describe D B Clusters
+  x-api-slug: actiondescribedbclusters-get
+  description: Returns information about provisioned Aurora DB clusters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actiondescribedbclusters-get-openapi.md
+- name: AWS RDS API - Failover D B Cluster
+  x-api-slug: actionfailoverdbcluster-get
+  description: Forces a failover for a DB cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionfailoverdbcluster-get-openapi.md
+- name: AWS RDS API - Modify D B Cluster
+  x-api-slug: actionmodifydbcluster-get
+  description: Modify a setting for an Amazon Aurora DB cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionmodifydbcluster-get-openapi.md
+- name: AWS RDS API - Remove Role From D B Cluster
+  x-api-slug: actionremoverolefromdbcluster-get
+  description: Disassociates an Identity and Access Management (IAM) role from an
+    Aurora DB cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionremoverolefromdbcluster-get-openapi.md
+- name: AWS RDS API - Restore D B Cluster From S3
+  x-api-slug: actionrestoredbclusterfroms3-get
+  description: Creates an Amazon Aurora DB cluster from data stored in an Amazon S3
+    bucket.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionrestoredbclusterfroms3-get-openapi.md
+- name: AWS RDS API - Restore D B Cluster To Point In Time
+  x-api-slug: actionrestoredbclustertopointintime-get
+  description: Restores a DB cluster to an arbitrary point in time.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clusters/master/_listings/aws-rds/actionrestoredbclustertopointintime-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.polly.api.gallery.streamdata.io
